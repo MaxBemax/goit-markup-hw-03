@@ -67,7 +67,8 @@ button {
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: #4d5ae5;
-   padding: 24px 0 24px;
+   padding-top: 24px;
+   padding-bottom: 24px;
    margin-right: 76px;
 }
 
@@ -136,7 +137,8 @@ button {
    color: #fff;
    max-width: 496px;
    margin: 0 auto;
-   padding: 188px 0 188px;
+   padding-top: 188px;
+   padding-bottom: 188px;
 }
 
 .solution-button {
@@ -212,6 +214,7 @@ button {
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: #2e2f42;
+   margin-bottom: 8px;
 }
 
 .advantages-text {
@@ -349,6 +352,7 @@ button {
 }
 
 .footer-logo {
+   display: inline-block;
    font-family: "Raleway", sans-serif;
    font-weight: 700;
    font-size: 18px;
@@ -356,7 +360,6 @@ button {
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: #4d5ae5;
-   display: inline-block;
    margin-bottom: 16px;
 }
 
