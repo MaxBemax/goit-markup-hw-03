@@ -60,6 +60,7 @@ button {
 }
 
 .header-logo {
+   display: inline-block;
    font-family: "Raleway", sans-serif;
    font-weight: 700;
    font-size: 18px;
@@ -67,8 +68,7 @@ button {
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: #4d5ae5;
-   padding-top: 24px;
-   padding-bottom: 24px;
+   padding: 24px 0;
    margin-right: 76px;
 }
 
@@ -126,6 +126,7 @@ button {
 .solution {
    min-height: 600px;
    background: #2e2f42;
+   padding: 188px 0;
 }
 
 .solution-title {
@@ -137,8 +138,7 @@ button {
    color: #fff;
    max-width: 496px;
    margin: 0 auto;
-   padding-top: 188px;
-   padding-bottom: 188px;
+
 }
 
 .solution-button {
@@ -173,7 +173,7 @@ button {
    display: flex;
 }
 
-.advantages-title {
+.advantages-main {
    text-transform: capitalize;
    font-weight: 500;
    font-size: 20px;
@@ -204,7 +204,6 @@ button {
 .advantages-item {
    display: flex;
    flex-direction: column;
-   margin-bottom: 8px;
    width: calc((100% - 3 * 24px) / 4);
 }
 
