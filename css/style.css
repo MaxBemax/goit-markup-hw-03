@@ -45,6 +45,7 @@ button {
 .header {
    min-height: 72px;
    background: #fff;
+   border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
